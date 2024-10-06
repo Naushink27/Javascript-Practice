@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse a String</title>
+</head>
+<body>
+    <script>
+        var str="I am Kiraa and I am the god of new world!!"
+       const String= str.split(" ").map(function(word){
+           return  word.split("").reverse().join("")
+        })
+        console.log(String.join(" "))
+    </script>
+</body>
+</html>

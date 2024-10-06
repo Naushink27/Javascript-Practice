@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse a number</title>
+</head>
+<body>
+    <h1>Reverse a Number</h1>
+</body>
+<script>
+    var a=12;
+    function Reverse(num){
+       return  Number(num.toString().split("").reverse().join(""))
+    }
+    console.log(Reverse(a))
+
+    var b=1234;
+    var rev=0;
+    function Reverse2(num){
+        while(num>0){
+            var rem= num%10;
+             rev=rev*10+rem;
+             num=Math.floor(num/10)
+        }
+        return rev;
+    }
+   console.log( Reverse2(b))
+</script>
+</html>
