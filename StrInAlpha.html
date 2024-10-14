@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String in alphabetical order</title>
+</head>
+<body>
+    <h1>String in alphabetical order</h1>
+</body>
+<script>
+    //My Logic
+//     let arr=[];
+//     let arr1=[];
+//     function Alpha(word){
+//   for(let i=0;i<word.length;i++){
+//    arr.push(word.charCodeAt(i))
+//   }
+//          console.log( arr.sort((a, b) => a - b))
+//          for(let i=0;i<arr.length;i++){
+//    arr1.push(String.fromCharCode(arr[i]))
+//   }
+//   console.log(arr1.join(""))
+//     }
+//     str="Naushin"
+//     Alpha(str)
+
+function AlphaSort(word){
+    console.log(word.split("").sort().join(""))
+}
+AlphaSort("Naushin is kira")
+</script>
+</html>

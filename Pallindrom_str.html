@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallindrome String</title>
+</head>
+<body>
+    <h1>Pallindrome String</h1>
+</body>
+<script>
+   function CheckPall(text){
+         const txt=(text.split("").reverse().join(""));
+         if(txt===text) 
+        {
+            console.log(text,"is pallindrome")
+        }
+        else{
+            console.log(text,"is not pallindrome") 
+        }
+   }
+   str="poo";
+   CheckPall(str)
+</script>
+</html>
